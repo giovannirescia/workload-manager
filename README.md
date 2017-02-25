@@ -32,7 +32,7 @@ Run the next commands from inside the project's dir, i.e., workload-manager.
 
 4. Set the PYTHONPATH so it can find the project's modules: `set PYTHONPATH=$PYTHONPATH:<path_to_the_project>`, eg, if your project is located in `/Users/sarunas/my_projects/workload-manager` then the PYTHONPATH setting will be `set PYTHONPATH=$PYTHONPATH:/Users/sarunas/my_projects/workload-manager`
 
-Note: the step 4 nees to be done each time a bash or shell terminal is opened. To avoid this step every time, just add the line `set PYTHONPATH=$PYTHONPATH:<path_to_the_project>`, instantiated with a concrete paht to the project of course, to the end of your ~/.bashrc or ~/.bash_profile file, then do `source ~/.bashrc` (or `source ~/.bash_profile`) and that's all.
+Note: the step 4 nees to be done each time a bash or shell terminal is opened. To avoid this step every time, just add the line `set PYTHONPATH=$PYTHONPATH:<path_to_the_project>`, instantiated with a concrete path to the project of course, to the end of your ~/.bashrc or ~/.bash_profile file, then do `source ~/.bashrc` (or `source ~/.bash_profile`) and that's all.
 
 
 ### Usage
